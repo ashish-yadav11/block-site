@@ -90,3 +90,7 @@ chrome.tabs.onUpdated.addListener(function (tabId, changeInfo) {
         }
     });
 });
+
+chrome.action.onClicked.addListener(function () {
+     chrome.runtime.openOptionsPage()
+});
