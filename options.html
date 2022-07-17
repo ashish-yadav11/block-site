@@ -14,16 +14,18 @@
   }
 
   #blocked-list {
-    border: 3px solid;
+    border: 1px solid;
     outline: none;
+    background-color: inherit;
+    color: inherit;
     font-size: inherit;
     line-height: inherit;
     white-space: pre;
   }
 
   #blocked-list::placeholder {
-    color: silver;
-    opacity: 1;
+    color: inherit;
+    opacity: 0.4;
     transition: opacity .7s;
   }
 
@@ -56,9 +58,9 @@
 
 <h1>Block Site</h1>
 <p>
-  Specify sites you want to block below. Each site must be on a
-  <strong>seperate line</strong>. Sites starting with <code>!</code> will be
-  treated as exceptions and will be allowed.
+  Specify sites to be blocked below. Each site must be on a <strong>seperate
+  line</strong>. Sites starting with <code>!</code> will be treated as
+  exceptions.
 </p>
 
 <textarea id="blocked-list" rows="10" cols="50" spellcheck="false"></textarea>

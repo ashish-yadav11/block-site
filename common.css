@@ -3,16 +3,17 @@ html {
 }
 
 body {
-    background-color: #1d2021;
     margin: 0 auto;
     padding: 50px;
+    background-color: #1d2021;
+    color: #ebdbb2;
     font-family: Calibri, Helvetica, Arial, sans-serif;
     line-height: 150%;
 }
 
 a {
+    color: #ebdbb2;
     font-weight: bold;
-    color: black;
     text-decoration: underline;
 }
 
