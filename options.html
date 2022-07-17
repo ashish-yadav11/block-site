@@ -50,18 +50,15 @@
     width: 1.3em;
     height: 1.3em;
   }
-
-  #credits {
-    margin-top: 5em;
-  }
 </style>
 </head>
 <body>
 
 <h1>Block Site</h1>
 <p>
-  Specify sites you want to block below. Each site must be on a <strong>seperate line</strong>.
-  Sites starting with <code>!</code> will be exception to the rule, allowed.
+  Specify sites you want to block below. Each site must be on a
+  <strong>seperate line</strong>. Sites starting with <code>!</code> will be
+  treated as exceptions and will be allowed.
 </p>
 
 <textarea id="blocked-list" rows="10" cols="50" spellcheck="false"></textarea>
@@ -71,8 +68,8 @@
   <div>
     <label for="resolution-select">What to do when a site is blocked?</label>
     <select id="resolution-select">
-      <option value="CLOSE_TAB">Close Tab</option>
-      <option value="SHOW_BLOCKED_INFO_PAGE">Show Blocked info page</option>
+      <option value="CLOSE_TAB">Close tab</option>
+      <option value="SHOW_BLOCKED_INFO_PAGE">Show blocked info page</option>
     </select>
   </div>
   <div>
@@ -83,12 +80,6 @@
 
 <br>
 <span>All changes are saved automatically.</span>
-
-<p id="credits">
-  Created by <a target="_blank" href="https://github.com/penge">Pavel Bucka (penge)</a><br>
-  Support this project by starring it on <a target="_blank" href="https://github.com/penge/block-site">GitHub</a>.
-  Let me know about your feature requests.
-</p>
 
 <script src="options.js"></script>
 </body>
