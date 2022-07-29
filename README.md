@@ -5,5 +5,5 @@ by blocking access to specified websites.
 
 # Configuration
 
-To configure, click on the **B** icon in the toolbar and select **Options**
-from the menu.
+To configure, left-click on the extension icon in the toolbar (or right-click
+and and select **Options** from the menu).
